@@ -1,0 +1,108 @@
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+/* header */ 
+header{
+  background-color: #FFFAFA;
+  width: 100%;
+  padding:  10px;
+}
+
+nav {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+}
+nav h1 {
+	text-align: center;
+	font-size: 28px;
+	color : black
+}
+
+header ul {
+  margin: 5px  ;
+  padding: none;
+}
+
+header ul a {
+    display: inline-block;
+    margin-right: 5px;
+}
+div { 
+  background-image:url("https://i.ibb.co/gPqv923/code-php-html-wallpaper-1600x900.jpg");
+  background-repeat: no-repeat;
+}
+ 
+main h2,p {
+	  
+    color: #ADFF2F;
+	text-align: center;
+	font-family: georgia;
+	font-size: 20px;
+	background-color: ;
+	opacity:50%;
+}
+
+footer{
+	
+  text-align:center; 
+  font-weight:bold;
+  padding:10px;
+  background:#FFFAFA;
+  color:black;
+  }
+
+.card {
+	
+  display: block;
+  background-color: white;
+  padding: 30px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+.card h3,p1 {
+	
+color:#FAEBD7;
+}
+
+.social-icons a{
+	
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
+.social-icons a.facebook:hover
+{
+  background-color:#1E90FF
+}
+.social-icons a.youtube:hover
+{
+	background-color:#B22222;
+}
+.social-icons a.github:hover
+{
+	background-color:#191970;
+	
+}
